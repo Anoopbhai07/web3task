@@ -64,11 +64,10 @@ registerRoomSocket(io);
 async function startServer(): Promise<void> {
   await connectDatabase();
 
-  httpServer.listen(env.port, () => {
-    console.log(`Watch Party API listening on port ${env.port}`);
-  });
+  httpServer.listen(env.port, "0.0.0.0", () => {
+  console.log(`Watch Party API listening on port ${env.port}`);
+});
 }
-
 startServer().catch((error: unknown) => {
   console.error("Server startup failed:", error);
   process.exitCode = 1;
