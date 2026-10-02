@@ -2,7 +2,7 @@
 
 A real-time watch room where friends can join with a room code and watch the same YouTube video together. The backend is authoritative for room membership, playback state, and role permissions.
 
-> **Project status:** Phases 0–12 are implemented and locally build/smoke-checked. Render deployment is configured in `render.yaml` but has not been created yet. Push this repository to GitHub, then connect the Blueprint in Render and provide a MongoDB Atlas connection string.
+>
 
 ## Features
 
@@ -73,8 +73,7 @@ Prerequisites: Node.js compatible with Vite 8, npm, and MongoDB running locally 
    ```powershell
    cd server
    npm install
-   Copy-Item .env.example .env
-   ```
+   
 
    Set `MONGODB_URI` in `server/.env` to your local or Atlas database. Keep `.env` private; it is ignored by Git.
 
@@ -188,9 +187,7 @@ The Blueprint is prepared but has not been deployed yet; add the real frontend/b
 
 Render supports public WebSocket connections on web services and static-site rewrite routes for React Router paths. See [Render WebSockets](https://render.com/docs/websocket), [Blueprint reference](https://render.com/docs/blueprint-spec), and [static-site rewrites](https://render.com/docs/redirects-rewrites).
 
-## Screenshots
 
-Add screenshots of the home page and an active room to a `docs/screenshots/` folder after choosing test accounts. No screenshots are included yet.
 
 ## Known limitations / next improvements
 
