@@ -207,8 +207,23 @@ git push -u origin feat/room-invites
 Commit small, reviewable changes with messages that describe the outcome. Keep `.env` files and database credentials out of commits.
 
 
-
 ## DEPLOYED RENDER LINK => https://web3stack-watch-party-client.onrender.com/
+
+## SCREENSHOT 
+
+[Homepage] <img width="1916" height="1002" alt="Screenshot 2026-10-03 124209" src="https://github.com/user-attachments/assets/a0aa9212-af19-4379-aae2-d18c73e0ce80" />
+[Watchroom] <img width="1917" height="1015" alt="Screenshot 2026-10-03 124222" src="https://github.com/user-attachments/assets/081a3dad-49af-42f5-bfa3-71b79b35e940" />
+[Watchroom]<img width="1917" height="1015" alt="Screenshot 2026-10-03 124441" src="https://github.com/user-attachments/assets/bd3e4430-4b7e-486d-b09d-40fdd2cc9f41" />
+[Watchroom]<img width="1916" height="1013" alt="Screenshot 2026-10-03 124522" src="https://github.com/user-attachments/assets/20d60866-6fb9-424e-abec-0a972fa32e06" />
+[Watching Video] <img width="1917" height="1026" alt="Screenshot 2026-10-03 131153" src="https://github.com/user-attachments/assets/3bf5b297-718a-4c0b-8c29-8ae0d901999a" />
+[WatchroomParticipant 1] <img width="540" height="1204" alt="WhatsApp Image 2026-10-03 at 13 12 15" src="https://github.com/user-attachments/assets/325c7dbf-1103-4e3f-aaf0-e3b19c6fd8fd" />
+[WatchroomParticipant2] <img width="720" height="1600" alt="WhatsApp Image 2026-10-03 at 13 12 26" src="https://github.com/user-attachments/assets/0f0fbd49-31de-4d7d-a6d3-a89c4ea22c4a" />
+
+
+
+
+
+
 
 
 
