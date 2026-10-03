@@ -186,13 +186,6 @@ Render supports public WebSocket connections on web services and static-site rew
 
 
 
-## Known limitations / next improvements
-
-- Room state is stored in MongoDB; Socket.IO presence and real-time broadcasts currently use a single server instance.
-- There is no Redis Socket.IO adapter yet for horizontal multi-instance scaling.
-- Playback sync is event/snapshot based; it does not continuously correct playback drift.
-- The browser session is held in memory, so refreshing the page requires rejoining with the room code.
-- Host handoff is automatic to the earliest remaining participant; there is no manual host-transfer control.
 
 ## Git workflow examples
 
@@ -204,7 +197,7 @@ git commit -m "feat: add room invite flow"
 git push -u origin feat/room-invites
 ```
 
-Commit small, reviewable changes with messages that describe the outcome. Keep `.env` files and database credentials out of commits.
+
 
 
 ## DEPLOYED RENDER LINK => https://web3stack-watch-party-client.onrender.com/
