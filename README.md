@@ -95,7 +95,7 @@ Prerequisites: Node.js compatible with Vite 8, npm, and MongoDB running locally 
    npm run dev
    ```
 
-   Open `http://localhost:5173`.
+   Open `http://localhost:5173/`.
 
 ## Environment variables
 
@@ -104,7 +104,7 @@ Prerequisites: Node.js compatible with Vite 8, npm, and MongoDB running locally 
 | Variable | Required | Purpose | Local example |
 |---|---|---|---|
 | `PORT` | No | HTTP and Socket.IO listener port | `4000` |
-| `CLIENT_ORIGIN` | Yes | Exact allowed browser origin for CORS | `http://localhost:5173` |
+| `CLIENT_ORIGIN` | Yes | Exact allowed browser origin for CORS | `http://localhost:5173/` |
 | `MONGODB_URI` | Yes | MongoDB connection string | `mongodb://127.0.0.1:27017/watch-party` |
 
 ### Client (`client/.env`)
@@ -180,10 +180,7 @@ The current local smoke checks passed for API room errors, duplicate names, Sock
 5. Deploy both services. Confirm the API `/health` endpoint reports the database as connected.
 6. Open the client URL and repeat the two-browser room, playback, and role checks.
 
-The Blueprint is prepared but has not been deployed yet; add the real frontend/backend URLs below after deployment:
 
-- Frontend: pending
-- Backend health endpoint: pending
 
 Render supports public WebSocket connections on web services and static-site rewrite routes for React Router paths. See [Render WebSockets](https://render.com/docs/websocket), [Blueprint reference](https://render.com/docs/blueprint-spec), and [static-site rewrites](https://render.com/docs/redirects-rewrites).
 
@@ -208,3 +205,11 @@ git push -u origin feat/room-invites
 ```
 
 Commit small, reviewable changes with messages that describe the outcome. Keep `.env` files and database credentials out of commits.
+
+
+
+## DEPLOYED RENDER LINK => https://web3stack-watch-party-client.onrender.com/
+
+
+
+
