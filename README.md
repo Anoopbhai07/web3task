@@ -211,6 +211,8 @@ git push -u origin feat/room-invites
 [Watching Video] <img width="1917" height="1026" alt="Screenshot 2026-10-03 131153" src="https://github.com/user-attachments/assets/3bf5b297-718a-4c0b-8c29-8ae0d901999a" />
 [WatchroomParticipant 1] <img width="540" height="1204" alt="WhatsApp Image 2026-10-03 at 13 12 15" src="https://github.com/user-attachments/assets/325c7dbf-1103-4e3f-aaf0-e3b19c6fd8fd" />
 [WatchroomParticipant2] <img width="720" height="1600" alt="WhatsApp Image 2026-10-03 at 13 12 26" src="https://github.com/user-attachments/assets/0f0fbd49-31de-4d7d-a6d3-a89c4ea22c4a" />
+[Wtchroom]<img width="720" height="1600" alt="WhatsApp Image 2026-10-03 at 14 13 20" src="https://github.com/user-attachments/assets/301bebf7-036e-4a89-b63f-1b45bc08dae4" />
+
 
 
 
